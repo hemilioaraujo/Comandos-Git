@@ -87,4 +87,4 @@
 	*git log -n - exibe os ultimos n commits
 	*git shortlog - exibe um resumo dos commits
 	*git shortlog -sn - exibe somente os nomes de usuário e quantos commits eles realizaram
-	
+	*git show hash - exibe alterações realizadas no commit
