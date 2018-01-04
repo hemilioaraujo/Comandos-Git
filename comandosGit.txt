@@ -1,45 +1,38 @@
-﻿Estudo sobre Git e Github
+﻿Material retirado com base no curso Git e Github para iniciantes(Willian Justen de Vasconcellos)
 
-* site para download Git:
+Link para o curso no portal Udemy:
+	https://www.udemy.com/git-e-github-para-iniciantes
 
+Download Git:
 	https://git-scm.com/
 	
-* configurar git
+Configurando Git:
 	
-	*Username
+	Username
 		git config --global user.name "HLAM"
 
-	*email
+	email
 		git config --global user.email "hemilioaraujo@gmail.com"
 	
-	*editor padrão(se não configurado ele utiliza vim)
+	editor padrão(se não configurado ele utiliza vim)
 		git config --global core.editor (emacs,vim)
 	
-	*exibir configurações utilizadas
-		git config chave		chave = user.name, user.email, core.editor
-	
+	exibir configurações utilizadas
+		git config chave		chave = user.name, user.email, core.editor	
 		git config --list		exibe todas as configurações
 
-* gerenciando pastas projeto
+Gerenciar Pastas:
 		
-	*criar pasta para salvar arquivos do projeto
-		
-		mkdir - comando criar pastas
-		
-		mkdir nome da pasta
+	Criar Pasta Repositório Local:
+		mkdir nomeDaPasta
 	
-	*acessar diretórios ou retornar para diretórios anteriores
-	
+	Deslocamento Entre Diretórios:
 		comando cd ou dir
 		
-		*acessar diretórios
-		
-			cd nome da pasta
+		cd nomeDaPasta - entra no diretório
 			
-		*retornar
-		
-			cd retorna para diretório raiz
-			cd .. retorna para diretório anterior
+		cd 	retorna para diretório raiz
+		cd .. 	retorna para diretório anterior
 	
 	*inicializar repositório(monitorar alterações do diretório)
 		
