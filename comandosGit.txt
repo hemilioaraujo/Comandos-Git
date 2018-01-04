@@ -94,5 +94,8 @@
 	*git diff - exibe diferenças entre original e o arquivo a ser commitado.
 	*git diff --name-only - exibe apenas o nome dos arquivos alterados.
 
-	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified.
+	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified(not staged).
+	*git reset HEAD - retira arquivo editado do staged.
+
+
 	
