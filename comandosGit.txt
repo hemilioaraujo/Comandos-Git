@@ -116,6 +116,5 @@
 	*git remote add origin https://github.com/hemilioaraujo/cmdGit.git - este comando adiciona um repositório remoto, com o nome origin(pode ser qualquer nome)
 	*git remote - exibe repositório remoto
 	*git remote -v - exibe repositório remoto e seu endereço
-	*git push -u origin master - copia todos os dados e arquivos de um local para outro. No exemplo destino(origin) / origem(master). O comando -u faz um track,
-	e das próximas vezes, só é nescessário o git push.
-	
+	*git push -u origin master -	copia todos os dados e arquivos master(origem) para o origin(destino).
+					O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
