@@ -59,7 +59,7 @@
 	i - insert
 	:w - escrever(salvar)
 	:q - sair
-	
+
 * status do arquivo no repositório
 
 	*untracked - arquivo recém adicionado no repositório mas o 
@@ -88,3 +88,7 @@
 	*git shortlog - exibe um resumo dos commits
 	*git shortlog -sn - exibe somente os nomes de usuário e quantos commits eles realizaram
 	*git show hash - exibe alterações realizadas no commit
+
+	*git diff - exibe diferenças entre original e o arquivo a ser commitado
+	*git diff --name-only - exibe apenas o nome dos arquivos alterados
+
