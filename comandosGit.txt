@@ -94,10 +94,21 @@
 	*git diff - exibe diferenças entre original e o arquivo a ser commitado.
 	*git diff --name-only - exibe apenas o nome dos arquivos alterados.
 
+	Reset Commit
+	
 	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified(not staged).
 	*git reset HEAD - retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
 	*git reset --soft - desfaz o commit e fica a ponto de commitar novamente (staged).
 	*git reset --mixed - desfaz o commit e volta para modified.
 	*git reset --hard - acaba com toda edição feita pelo commit e retorna para o commit anterior.
+	
+	Repositório Remoto
+
+	*git remote add origin https://github.com/hemilioaraujo/cmdGit.git - 	adiciona repositório remoto com o nome origin, 
+										que pode ser qualquer nome utilizando o link do repositório.
+	*git push -u origin master - 	copia todos os dados e arquivos do repo master(origem) para origin(destino).
+					Comando -u serve para realizar um track e não precisar escrever destino e origem após o track.
+	*git remote -	exibe repos remotos.
+	*git remote -	exibe repos remotos e seus endereços.
 
 
