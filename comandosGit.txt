@@ -100,4 +100,11 @@
 	*git reset --mixed - desfaz o commit e volta para modified.
 	*git reset --hard - acaba com toda edição feita pelo commit e retorna para o commit anterior.
 
+* repositório remoto (GitHub)
 
+	*git remote add origin https://github.com/hemilioaraujo/cmdGit.git - este comando adiciona um repositório remoto, com o nome origin(pode ser qualquer nome)
+	*git remote - exibe repositório remoto
+	*git remote -v - exibe repositório remoto e seu endereço
+	*git push -u origin master - copia todos os dados e arquivos de um local para outro. No exemplo destino(origin) / origem(master). O comando -u faz um track,
+	e das próximas vezes, só é nescessário o git push.
+	
