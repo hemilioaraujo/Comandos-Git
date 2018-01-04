@@ -96,4 +96,8 @@
 
 	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified(not staged).
 	*git reset HEAD - retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
+	*git reset --soft - desfaz o commit e fica a ponto de commitar novamente (staged).
+	*git reset --mixed - desfaz o commit e volta para modified.
+	*git reset --hard - acaba com toda edição feita pelo commit e retorna para o commit anterior.
+
 
