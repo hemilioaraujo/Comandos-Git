@@ -92,3 +92,4 @@
 	*git diff - exibe diferenças entre original e o arquivo a ser commitado
 	*git diff --name-only - exibe apenas o nome dos arquivos alterados
 
+teste
