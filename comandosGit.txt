@@ -95,7 +95,5 @@
 	*git diff --name-only - exibe apenas o nome dos arquivos alterados.
 
 	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified(not staged).
-	*git reset HEAD - retira arquivo editado do staged.
+	*git reset HEAD - retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
 
-
-	
