@@ -77,6 +77,8 @@
 	*git status - exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
 	*git add nome do arquivo - adiciona o arquivo ao repositório.
 	*git rm nome do arquivo - deleta o arquivo do repositório.
+	*git commit -m "comentário" - confirma todas alterações e commita(arquivo recém criado).
+	*git commit -am "comentário" - confirma todas alterações e commita(arquivo já existente).
 	*clear - limpa prompt
 
 	Log's	
@@ -89,7 +91,8 @@
 	*git shortlog -sn - exibe somente os nomes de usuário e quantos commits eles realizaram
 	*git show hash - exibe alterações realizadas no commit
 
-	*git diff - exibe diferenças entre original e o arquivo a ser commitado
-	*git diff --name-only - exibe apenas o nome dos arquivos alterados
+	*git diff - exibe diferenças entre original e o arquivo a ser commitado.
+	*git diff --name-only - exibe apenas o nome dos arquivos alterados.
 
-teste
+	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified.
+	
