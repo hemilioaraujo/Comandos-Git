@@ -123,30 +123,30 @@ Comandos Git:
 	
 	Repositório Remoto:
 
-	git remote add origin https://github.com/hemilioaraujo/cmdGit.git		adiciona repositório remoto com o nome origin, 
-																			que pode ser qualquer nome utilizando o link do repositório.
+	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	adiciona repositório remoto com o nome origin, 
+										que pode ser qualquer nome utilizando o link do repositório.
 	
-	git push -u origin master												copia todos os dados e arquivos do repo master(origem)
-																			para origin(destino).
-																			Comando -u serve para realizar um track e não precisar
-																			escrever destino e origem após o track.
+	git push -u origin master						copia todos os dados e arquivos do repo master(origem)
+										para origin(destino).
+										Comando -u serve para realizar um track e não precisar
+										escrever destino e origem após o track.
 	
-	git remote																exibe repos remotos.
+	git remote								exibe repos remotos.
 	
-	git remote																exibe repos remotos e seus endereços.
+	git remote								exibe repos remotos e seus endereços.
 
 	
 	Repositório remoto (GitHub):
 
-	git remote add origin https://github.com/hemilioaraujo/cmdGit.git		este comando adiciona um repositório remoto, com o nome origin
-																			(pode ser qualquer nome)
+	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	este comando adiciona um repositório remoto, com o nome origin
+										(pode ser qualquer nome)
 	
-	git remote																exibe repositório remoto
+	git remote								exibe repositório remoto
 	
-	git remote -v															exibe repositório remoto e seu endereço
+	git remote -v								exibe repositório remoto e seu endereço
 	
-	git push -u origin master												copia todos os dados e arquivos master(origem) para o origin(destino).
-																			O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+	git push -u origin master						copia todos os dados e arquivos master(origem) para o origin(destino).
+										O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
 
 					
 
