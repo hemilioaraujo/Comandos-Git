@@ -3,8 +3,12 @@
 Link para o curso no portal Udemy:
 	https://www.udemy.com/git-e-github-para-iniciantes
 
+	
+	
 Download Git:
 	https://git-scm.com/
+	
+	
 	
 Configurando Git:
 	
@@ -21,93 +25,135 @@ Configurando Git:
 		git config chave		chave = user.name, user.email, core.editor	
 		git config --list		exibe todas as configurações
 
+		
+		
 Gerenciar Pastas:
 		
 	Criar Pasta Repositório Local:
 		mkdir nomeDaPasta
 	
-	Deslocamento Entre Diretórios:
-		comando cd ou dir
+	Deslocamento Entre Diretórios(cd ou dir):
 		
-		cd nomeDaPasta - entra no diretório
+		cd nomeDaPasta		entra no diretório
 			
-		cd 	retorna para diretório raiz
-		cd .. 	retorna para diretório anterior
+		cd					retorna para diretório raiz
+		
+		cd ..				retorna para diretório anterior
+		
+	Obs.: diretório .git contém todos os dados sobre o repositório
+
 	
-	*inicializar repositório(monitorar alterações do diretório)
+	
+Status Dos Arquivos No Repositório:
+
+	*untracked		arquivo recém adicionado no repositório mas o 
+					git ainda não conhece nenhuma versão deste arquivo.
+	
+	*unmodified		arquivo recém adicionado no git porém nunca modificado.
+
+	*modified		arquivo já modificado anteriormente.
+	
+	*staged			momento em que é criada a versão do arquivo(commit).
+					Quando é realizado o commit, o arquivo volta para o modo de unmodified.
+
+					
+
+Comandos Git:
+
+	Inicializar Repositório(monitorar alterações do diretório):	
 		
 		git init
 	
-	*exibir diretórios ou arquivos existentes
 	
+	Exibir Diretórios Ou Arquivos Existentes:
+		
 		ls -la  exibe diretórios
 		ls 		exibe arquivos
-		
-	*diretório .git contém todos os dados sobre o repositório
+
 	
-* editar arquivos com vim
-
-	vim nome do arquivo.extenção
+	git status						exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
 	
-	i - insert
-	:w - escrever(salvar)
-	:q - sair
-
-* status do arquivo no repositório
-
-	*untracked - arquivo recém adicionado no repositório mas o 
-		git ainda não conhece nenhuma versão deste arquivo.
+	git add nome do arquivo			adiciona o arquivo ao repositório.
 	
-	*unmodified - arquivo recém adicionado no git porém nunca modificado.
-
-	*modified - arquivo já modificado anteriormente.
+	git rm nome do arquivo			deleta o arquivo do repositório.
 	
-	*staged - momento em que é criada a versão do arquivo(commit).
-		Quando é realizado o commit, o arquivo volta para o modo de unmodified.
-
-* comandos git
-
-	*git status - exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
-	*git add nome do arquivo - adiciona o arquivo ao repositório.
-	*git rm nome do arquivo - deleta o arquivo do repositório.
-	*git commit -m "comentário" - confirma todas alterações e commita(arquivo recém criado).
-	*git commit -am "comentário" - confirma todas alterações e commita(arquivo já existente).
-	*clear - limpa prompt
-
-	Log's	
+	git commit -m "comentário"		confirma todas alterações e commita(arquivo recém criado).
 	
-	*git log - exibe todos os commits
-	*git log --author="Joaquim" - somente commits do autor Joaquim
-	*git log --since=2.weeks - somente commits das ultimas 2 semanas
-	*git log -n - exibe os ultimos n commits
-	*git shortlog - exibe um resumo dos commits
-	*git shortlog -sn - exibe somente os nomes de usuário e quantos commits eles realizaram
-	*git show hash - exibe alterações realizadas no commit
-
-	*git diff - exibe diferenças entre original e o arquivo a ser commitado.
-	*git diff --name-only - exibe apenas o nome dos arquivos alterados.
-
-	Reset Commit
+	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente).
 	
-	*git checkout nomeDoArquivo - retorna o arquivo modified para unmodified(not staged).
-	*git reset HEAD - retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
-	*git reset --soft - desfaz o commit e fica a ponto de commitar novamente (staged).
-	*git reset --mixed - desfaz o commit e volta para modified.
-	*git reset --hard - acaba com toda edição feita pelo commit e retorna para o commit anterior.
+	clear							limpa prompt
+
 	
-	Repositório Remoto
+	Log's:	
+	
+	git log							exibe todos os commits
+	
+	git log --author="Joaquim"		somente commits do autor Joaquim
+	
+	git log --since=2.weeks			somente commits das ultimas 2 semanas
+	
+	git log -n						exibe os ultimos n commits
+	
+	git shortlog					exibe um resumo dos commits
+	
+	git shortlog -sn				exibe somente os nomes de usuário e quantos commits eles realizaram
+	
+	git show hash					exibe alterações realizadas no commit
 
-	*git remote add origin https://github.com/hemilioaraujo/cmdGit.git - 	adiciona repositório remoto com o nome origin, 
-										que pode ser qualquer nome utilizando o link do repositório.
-	*git push -u origin master - 	copia todos os dados e arquivos do repo master(origem) para origin(destino).
-					Comando -u serve para realizar um track e não precisar escrever destino e origem após o track.
-	*git remote -	exibe repos remotos.
-	*git remote -	exibe repos remotos e seus endereços.
+	
+	Diferênças Entre Aruivo Unmodified e Modified:
+	
+	git diff				exibe diferenças entre original e o arquivo a ser commitado.
+	
+	git diff --name-only	exibe apenas o nome dos arquivos alterados.
 
-* repositório remoto (GitHub)
+	
+	Reset Commit:
+	
+	git checkout nomeDoArquivo			retorna o arquivo modified para unmodified(not staged).
+	
+	git reset HEAD hash					retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
+	
+	git reset --soft hash				desfaz o commit e fica a ponto de commitar novamente (staged).
+	
+	git reset --mixed hash				desfaz o commit e volta para modified.
+	
+	git reset --hard hash				acaba com toda edição feita pelo commit e retorna para o commit anterior.
+	
+	
+	Repositório Remoto:
 
-	*git remote add origin https://github.com/hemilioaraujo/cmdGit.git - este comando adiciona um repositório remoto, com o nome origin(pode ser qualquer nome)
-	*git remote - exibe repositório remoto
-	*git remote -v - exibe repositório remoto e seu endereço
-	*git push -u origin master -	copia todos os dados e arquivos master(origem) para o origin(destino).
-					O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+	git remote add origin https://github.com/hemilioaraujo/cmdGit.git		adiciona repositório remoto com o nome origin, 
+																			que pode ser qualquer nome utilizando o link do repositório.
+	
+	git push -u origin master												copia todos os dados e arquivos do repo master(origem)
+																			para origin(destino).
+																			Comando -u serve para realizar um track e não precisar
+																			escrever destino e origem após o track.
+	
+	git remote																exibe repos remotos.
+	
+	git remote																exibe repos remotos e seus endereços.
+
+	
+	Repositório remoto (GitHub):
+
+	git remote add origin https://github.com/hemilioaraujo/cmdGit.git		este comando adiciona um repositório remoto, com o nome origin
+																			(pode ser qualquer nome)
+	
+	git remote																exibe repositório remoto
+	
+	git remote -v															exibe repositório remoto e seu endereço
+	
+	git push -u origin master												copia todos os dados e arquivos master(origem) para o origin(destino).
+																			O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+
+					
+
+Editar Arquivos Utilizando VIM:
+
+	vim nomeDoArquivo.extenção
+	
+	i		insert
+	:w		escrever(salvar)
+	:q		sair
