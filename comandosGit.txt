@@ -36,9 +36,9 @@ Gerenciar Pastas:
 		
 		cd nomeDaPasta		entra no diretório
 			
-		cd					retorna para diretório raiz
+		cd			retorna para diretório raiz
 		
-		cd ..				retorna para diretório anterior
+		cd ..			retorna para diretório anterior
 		
 	Obs.: diretório .git contém todos os dados sobre o repositório
 
@@ -46,15 +46,15 @@ Gerenciar Pastas:
 	
 Status Dos Arquivos No Repositório:
 
-	*untracked		arquivo recém adicionado no repositório mas o 
-					git ainda não conhece nenhuma versão deste arquivo.
+	untracked		arquivo recém adicionado no repositório mas o 
+				git ainda não conhece nenhuma versão deste arquivo.
 	
-	*unmodified		arquivo recém adicionado no git porém nunca modificado.
+	unmodified		arquivo recém adicionado no git porém nunca modificado.
 
-	*modified		arquivo já modificado anteriormente.
+	modified		arquivo já modificado anteriormente.
 	
-	*staged			momento em que é criada a versão do arquivo(commit).
-					Quando é realizado o commit, o arquivo volta para o modo de unmodified.
+	staged			momento em que é criada a versão do arquivo(commit).
+				Quando é realizado o commit, o arquivo volta para o modo de unmodified.
 
 					
 
@@ -67,11 +67,11 @@ Comandos Git:
 	
 	Exibir Diretórios Ou Arquivos Existentes:
 		
-		ls -la  exibe diretórios
+		ls -la  	exibe diretórios
 		ls 		exibe arquivos
 
 	
-	git status						exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
+	git status				exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
 	
 	git add nome do arquivo			adiciona o arquivo ao repositório.
 	
@@ -81,44 +81,44 @@ Comandos Git:
 	
 	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente).
 	
-	clear							limpa prompt
+	clear					limpa prompt
 
 	
 	Log's:	
 	
-	git log							exibe todos os commits
+	git log					exibe todos os commits
 	
 	git log --author="Joaquim"		somente commits do autor Joaquim
 	
 	git log --since=2.weeks			somente commits das ultimas 2 semanas
 	
-	git log -n						exibe os ultimos n commits
+	git log -n				exibe os ultimos n commits
 	
-	git shortlog					exibe um resumo dos commits
+	git shortlog				exibe um resumo dos commits
 	
-	git shortlog -sn				exibe somente os nomes de usuário e quantos commits eles realizaram
+	git shortlog -sn			exibe somente os nomes de usuário e quantos commits eles realizaram
 	
-	git show hash					exibe alterações realizadas no commit
+	git show hash				exibe alterações realizadas no commit
 
 	
 	Diferênças Entre Aruivo Unmodified e Modified:
 	
-	git diff				exibe diferenças entre original e o arquivo a ser commitado.
+	git diff			exibe diferenças entre original e o arquivo a ser commitado.
 	
-	git diff --name-only	exibe apenas o nome dos arquivos alterados.
+	git diff --name-only		exibe apenas o nome dos arquivos alterados.
 
 	
 	Reset Commit:
 	
-	git checkout nomeDoArquivo			retorna o arquivo modified para unmodified(not staged).
+	git checkout nomeDoArquivo		retorna o arquivo modified para unmodified(not staged).
 	
-	git reset HEAD hash					retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
+	git reset HEAD hash			retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
 	
-	git reset --soft hash				desfaz o commit e fica a ponto de commitar novamente (staged).
+	git reset --soft hash			desfaz o commit e fica a ponto de commitar novamente (staged).
 	
-	git reset --mixed hash				desfaz o commit e volta para modified.
+	git reset --mixed hash			desfaz o commit e volta para modified.
 	
-	git reset --hard hash				acaba com toda edição feita pelo commit e retorna para o commit anterior.
+	git reset --hard hash			acaba com toda edição feita pelo commit e retorna para o commit anterior.
 	
 	
 	Repositório Remoto:
