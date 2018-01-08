@@ -152,16 +152,13 @@ Comandos Git:
 
 	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub)
 
-	cat id_rsa.pub // more id_rsa.pub // vim id_rsa.pub			exibe a chave SSH
+	cat id_rsa.pub // more id_rsa.pub // vim id_rsa.pub			exibe a chave SSH(tem de ser executado no diretório "~/.ssh")
 
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> enter 2x	gera a chave SSH no repositório local
 
-					
 
-Editar Arquivos Utilizando VIM:
+	Adicionando Chave SSH GitHub:
 
-	vim nomeDoArquivo.extenção
+	Copia a chave com o comando cat no diretório "~/.ssh" e acessa https://github.com/settings/keys -> new SSH key -> da um nome e cola a chave.
+
 	
-	i		insert
-	:w		escrever(salvar)
-	:q		sair
