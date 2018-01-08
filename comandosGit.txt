@@ -147,6 +147,14 @@ Comandos Git:
 	
 	git push -u origin master						copia todos os dados e arquivos master(origem) para o origin(destino).
 										O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+	
+	Gerenciando Chaves SSH:
+
+	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub)
+
+	cat id_rsa.pub // more id_rsa.pub // vim id_rsa.pub			exibe a chave SSH
+
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> enter 2x	gera a chave SSH no repositório local
 
 					
 
