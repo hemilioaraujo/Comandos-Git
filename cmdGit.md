@@ -121,19 +121,6 @@ Comandos Git:
 	git reset --hard hash			acaba com toda edição feita pelo commit e retorna para o commit anterior.
 	
 	
-	Repositório Remoto:
-
-	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	adiciona repositório remoto com o nome origin, 
-										que pode ser qualquer nome utilizando o link do repositório.
-	
-	git push -u origin master						copia todos os dados e arquivos do repo master(origem)
-										para origin(destino).
-										Comando -u serve para realizar um track e não precisar
-										escrever destino e origem após o track.
-	
-	git remote								exibe repos remotos.
-	
-	git remote								exibe repos remotos e seus endereços.
 
 	
 	Repositório remoto (GitHub):
@@ -147,6 +134,9 @@ Comandos Git:
 	
 	git push -u origin master						copia todos os dados e arquivos master(origem) para o origin(destino).
 										O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+
+	git clone git@github.com:hemilioaraujo/cmdGit.git nomePasta		clona repositório do endereço remoto(quando o repositório é pessoal)
+										quando não se é pessoal é necessário realizar um fork do repositório para um repositório pessoal.
 	
 	Gerenciando Chaves SSH:
 
