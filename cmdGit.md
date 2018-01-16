@@ -60,12 +60,12 @@ Status Dos Arquivos No Repositório:
 
 Comandos Git:
 
-	Inicializar Repositório(monitorar alterações do diretório):	
+Inicializar Repositório(monitorar alterações do diretório):	
 		
 		git init
 	
 	
-	Exibir Diretórios Ou Arquivos Existentes:
+Exibir Diretórios Ou Arquivos Existentes:
 		
 		ls -la  	exibe diretórios
 		ls 		exibe arquivos
@@ -84,7 +84,7 @@ Comandos Git:
 	clear					limpa prompt
 
 	
-	Log's:	
+Log's:	
 	
 	git log					exibe todos os commits
 	
@@ -101,14 +101,14 @@ Comandos Git:
 	git show hash				exibe alterações realizadas no commit
 
 	
-	Diferênças Entre Aruivo Unmodified e Modified:
+Diferênças Entre Aruivo Unmodified e Modified:
 	
 	git diff			exibe diferenças entre original e o arquivo a ser commitado.
 	
 	git diff --name-only		exibe apenas o nome dos arquivos alterados.
 
 	
-	Reset Commit:
+Reset Commit:
 	
 	git checkout nomeDoArquivo		retorna o arquivo modified para unmodified(not staged).
 	
@@ -123,7 +123,7 @@ Comandos Git:
 	
 
 	
-	Repositório remoto (GitHub):
+Repositório remoto (GitHub):
 
 	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	este comando adiciona um repositório remoto, com o nome origin
 										(pode ser qualquer nome)
@@ -138,7 +138,7 @@ Comandos Git:
 	git clone git@github.com:hemilioaraujo/cmdGit.git nomePasta		clona repositório do endereço remoto(quando o repositório é pessoal)
 										quando não se é pessoal é necessário realizar um fork do repositório para um repositório pessoal.
 	
-	Gerenciando Chaves SSH:
+Gerenciando Chaves SSH:
 
 	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub)
 
@@ -147,7 +147,7 @@ Comandos Git:
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> enter 2x	gera a chave SSH no repositório local
 
 
-	Adicionando Chave SSH GitHub:
+Adicionando Chave SSH GitHub:
 
 	Copia a chave com o comando cat no diretório "~/.ssh" e acessa https://github.com/settings/keys -> new SSH key -> da um nome e cola a chave.
 
