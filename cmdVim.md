@@ -81,16 +81,30 @@ Ferramentas:
 	:r nomeDoArquivo	traz todo o texto do arquivo selecionado para
 				o arquivo aberto;
 	
-	/palavra		Pesquisa pela palavra desejada por todo arquivo.
+	/palavra		Pesquisa de cima para baixo pela palavra desejada
+				por todo arquivo.
 				Para ir alternando entre as repetições da palavra,
 				é só apertar n;
+	
+	?palavra		Pesquisa de baixo para cima pela palavra desejada;
+
+	:x,y/antiga/nova/	Substitui a palavra antiga que estiver dentre as
+				linhas x e y pela palavra nova;
+
+	:%s/antiga/nova/	Substitui todas as palavras antigas pela nova;
+
+	:%s/antiga/nova/g	Substitui todas as palavras antigas pela nova.
+				Substitui apenas uma por linha se hoverem duas;
+	
+	:syntax on/off		Liga ou desliga reconhecimento da syntax da 
+				linguagem. Arquivo precisa ter a extensão;
+
+	:set number		Exibe número de linhas do arquivo;
+
+	:set nonu		Oculta número de linhas do arquivo;
 
 	
-
-	
-link do vídeo: https://www.youtube.com/watch?v=XXRZ0acXHU0&t=345s
-
-parado em 9:15
+link do vídeo: https://www.youtube.com/watch?v=_qShvkx8jK0
 
 
 
