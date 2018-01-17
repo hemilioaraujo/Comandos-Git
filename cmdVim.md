@@ -70,6 +70,31 @@ Salvar Arquivo:
 
 	:q!			Sair sem salvar;
 
+
+Ferramentas:
+
+	:split nomeDoArquivo	Divide a tela em duas com os arquivos abertos
+				um em cada tela;
+
+	Ctrl + ww		Alt + Tab (Alterna entre as páginas editores);
+	
+	:r nomeDoArquivo	traz todo o texto do arquivo selecionado para
+				o arquivo aberto;
+	
+	/palavra		Pesquisa pela palavra desejada por todo arquivo.
+				Para ir alternando entre as repetições da palavra,
+				é só apertar n;
+
+	
+
+	
 link do vídeo: https://www.youtube.com/watch?v=XXRZ0acXHU0&t=345s
 
 parado em 9:15
+
+
+
+
+
+
+
