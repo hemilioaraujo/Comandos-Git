@@ -29,6 +29,33 @@ Inserir Dados:
 
 	S			Modo Inserção apagando linha do cursor;
 
+Editar Dados:
+
+	yy			Copia toda a linha;
+                                  
+	Xyy			Copia X linhas;
+
+	yw			Copia uma palavra;
+
+	Xyw			Copia X palavras;
+                                  
+	dd			Recortar;
+                                  
+	Xdd			Recorta X linhas;
+                                  
+	p			Cola;
+                                  
+	v			Modo Visual para selecionar partes do texto
+		 		e não somente linhas;
+
+	Ctrl + v		Seleção em bloco(Seleção vertical);
+	
+	x			Del;
+
+	X			BackSpace;
+
+
+
 Salvar Arquivo:
 
 	:w			Salva arquivo;
@@ -42,3 +69,4 @@ Salvar Arquivo:
 	:q!			Sair sem salvar;
 
 
+	
