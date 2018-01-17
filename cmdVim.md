@@ -55,18 +55,21 @@ Editar Dados:
 	X			BackSpace;
 
 
-
 Salvar Arquivo:
 
 	:w			Salva arquivo;
+
+	:w novoNome		Salvar como(cria um novo arquivo com o nome
+				definido);
 
 	:wq			Salva e sai do arquivo;
 
 	:x			Faz o mesmo que o anterior;
 
-	shift + zz		Faz o mesmo que os anteriores;
+	ZZ			Faz o mesmo que os anteriores;
 
 	:q!			Sair sem salvar;
 
+link do vídeo: https://www.youtube.com/watch?v=XXRZ0acXHU0&t=345s
 
-	
+parado em 9:15
