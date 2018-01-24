@@ -34,109 +34,110 @@ Gerenciar Pastas:
 	
 	Deslocamento Entre Diretórios(cd ou dir):
 		
-		cd nomeDaPasta		entra no diretório
+		cd nomeDaPasta		entra no diretório;
 			
-		cd			retorna para diretório raiz
+		cd			retorna para diretório raiz;
 		
-		cd ..			retorna para diretório anterior
+		cd ..			retorna para diretório anterior;
 		
-	Obs.: diretório .git contém todos os dados sobre o repositório
+	Obs.: diretório .git contém todos os dados sobre o repositório;
 
 	
 	
 Status Dos Arquivos No Repositório:
 
 	untracked		arquivo recém adicionado no repositório mas o 
-				git ainda não conhece nenhuma versão deste arquivo.
+				git ainda não conhece nenhuma versão deste arquivo;
 	
-	unmodified		arquivo recém adicionado no git porém nunca modificado.
+	unmodified		arquivo recém adicionado no git porém nunca modificado;
 
-	modified		arquivo já modificado anteriormente.
+	modified		arquivo já modificado anteriormente;
 	
 	staged			momento em que é criada a versão do arquivo(commit).
-				Quando é realizado o commit, o arquivo volta para o modo de unmodified.
+				Quando é realizado o commit, o arquivo volta para o modo de unmodified;
 
 					
 
 Comandos Git:
 
-Inicializar Repositório(monitorar alterações do diretório):	
-		
-		git init
-	
-	
-Exibir Diretórios Ou Arquivos Existentes:
-		
-		ls -la  	exibe diretórios
-		ls 		exibe arquivos
 
+	git init				Inicializar Repositório(monitorar alterações do diretório);	
+		
+	ls -la				  	exibe diretórios;
+
+	ls 					exibe arquivos;
+
+	git status				exibe o status do repositório(em qual branch(diretório),
+						se existe algum commit pendente);
 	
-	git status				exibe o status do repositório(em qual branch(diretório), se existe algum commit pendente)
+	git add nome do arquivo			adiciona o arquivo ao repositório;
 	
-	git add nome do arquivo			adiciona o arquivo ao repositório.
+	git rm nome do arquivo			deleta o arquivo do repositório;
 	
-	git rm nome do arquivo			deleta o arquivo do repositório.
+	git commit -m "comentário"		confirma todas alterações e commita(arquivo recém criado);
 	
-	git commit -m "comentário"		confirma todas alterações e commita(arquivo recém criado).
+	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente);
 	
-	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente).
-	
-	clear					limpa prompt
+	clear					limpa prompt;
 
 	
 Log's:	
 	
-	git log					exibe todos os commits
+	git log					exibe todos os commits;
 	
-	git log --author="Joaquim"		somente commits do autor Joaquim
+	git log --author="Joaquim"		somente commits do autor Joaquim;
 	
-	git log --since=2.weeks			somente commits das ultimas 2 semanas
+	git log --since=2.weeks			somente commits das ultimas 2 semanas;
 	
-	git log -n				exibe os ultimos n commits
+	git log -n				exibe os ultimos n commits;
 	
-	git shortlog				exibe um resumo dos commits
+	git shortlog				exibe um resumo dos commits;
 	
-	git shortlog -sn			exibe somente os nomes de usuário e quantos commits eles realizaram
+	git shortlog -sn			exibe somente os nomes de usuário e quantos commits eles realizaram;
 	
-	git show hash				exibe alterações realizadas no commit
+	git show hash				exibe alterações realizadas no commit;
 
 	
 Diferênças Entre Aruivo Unmodified e Modified:
 	
-	git diff			exibe diferenças entre original e o arquivo a ser commitado.
+	git diff				exibe diferenças entre original e o arquivo a ser commitado;
 	
-	git diff --name-only		exibe apenas o nome dos arquivos alterados.
+	git diff --name-only			exibe apenas o nome dos arquivos alterados;
 
 	
 Reset Commit:
 	
-	git checkout nomeDoArquivo		retorna o arquivo modified para unmodified(not staged).
+	git checkout nomeDoArquivo		retorna o arquivo modified para unmodified(not staged);
 	
-	git reset HEAD hash			retira arquivo editado do staged(para ser realmente excluído, executa o checkout após o reset).
+	git reset HEAD hash			retira arquivo editado do staged(para ser realmente excluído,
+						executa o checkout após o reset);
 	
-	git reset --soft hash			desfaz o commit e fica a ponto de commitar novamente (staged).
+	git reset --soft hash			desfaz o commit e fica a ponto de commitar novamente (staged);
 	
-	git reset --mixed hash			desfaz o commit e volta para modified.
+	git reset --mixed hash			desfaz o commit e volta para modified;
 	
-	git reset --hard hash			acaba com toda edição feita pelo commit e retorna para o commit anterior.
+	git reset --hard hash			acaba com toda edição feita pelo commit e retorna para o commit anterior;
 	
 	
 
 	
 Repositório remoto (GitHub):
 
-	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	este comando adiciona um repositório remoto, com o nome origin
-										(pode ser qualquer nome)
+	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	este comando adiciona um repositório remoto, 
+										com o nome origin(pode ser qualquer nome);
 	
-	git remote								exibe repositório remoto
+	git remote								exibe repositório remoto;
 	
-	git remote -v								exibe repositório remoto e seu endereço
+	git remote -v								exibe repositório remoto e seu endereço;
 	
-	git push -u origin master						copia todos os dados e arquivos master(origem) para o origin(destino).
-										O comando -u faz um track, e das próximas vezes, só é nescessário o git push.
+	git push -u origin master						copia todos os dados e arquivos master(origem) 
+										para o origin(destino).
+										O comando -u faz um track, e das próximas vezes,
+										só é nescessário o git push;
 
 	git clone git@github.com:hemilioaraujo/cmdGit.git nomePasta		clona repositório do endereço remoto(quando o repositório é pessoal)
-										quando não se é pessoal é necessário realizar um fork do repositório para um repositório pessoal.
+										quando não se é pessoal é necessário realizar um fork 
+										do repositório para um repositório pessoal.
 	
 Gerenciando Chaves SSH:
 
