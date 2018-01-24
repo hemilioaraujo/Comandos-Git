@@ -137,20 +137,28 @@ Repositório remoto (GitHub):
 
 	git clone git@github.com:hemilioaraujo/cmdGit.git nomePasta		clona repositório do endereço remoto(quando o repositório é pessoal)
 										quando não se é pessoal é necessário realizar um fork 
-										do repositório para um repositório pessoal.
+										do repositório para um repositório pessoal;
 	
 Gerenciando Chaves SSH:
 
-	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub)
+	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub);
 
-	cat id_rsa.pub // more id_rsa.pub // vim id_rsa.pub			exibe a chave SSH(tem de ser executado no diretório "~/.ssh")
+	cat id_rsa.pub // more id_rsa.pub // vim id_rsa.pub			exibe a chave SSH(tem de ser executado no diretório "~/.ssh");
 
-	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> enter 2x	gera a chave SSH no repositório local
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -> enter 2x	gera a chave SSH no repositório local;
 
 
 Adicionando Chave SSH GitHub:
 
-	Copia a chave com o comando cat no diretório "~/.ssh" e acessa https://github.com/settings/keys -> new SSH key -> da um nome e cola a chave.
+	Copia a chave com o comando cat no diretório "~/.ssh" e acessa https://github.com/settings/keys -> new SSH key -> da um nome e cola a chave;
 
-	
+Branch's:
+
+	git checkout -b nomeBranch		Cria um novo branch com o nome que quiser;
+
+	git branch				Exibe os branchs existentes(O * indica posição atual);
+
+	git checkout nomeBranchExistente	Alterna entre os branchs;
+
+	git branch -D nomeBranch		Deleta branch selecionado;
 
