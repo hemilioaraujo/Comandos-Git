@@ -162,5 +162,3 @@ Branch's:
 
 	git branch -D nomeBranch		Deleta branch selecionado;
 
-	*BundaCabeluda* <em>Camarujo</em>
-
