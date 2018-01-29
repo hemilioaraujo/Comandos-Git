@@ -161,3 +161,22 @@ Branch's(Snapshot):
 	git checkout nomeBranchExistente	Alterna entre os branchs;
 
 	git branch -D nomeBranch		Deleta branch selecionado;
+	
+	Obs.: É sempre rebase para sincronizar o código do Branch com o master(qusndo não é interessante ter o commit desta sincronização ou junção)
+	e merge quando for incluir um código de um branch separado (feature) no master e gerar um commit.
+
+.gitignore:
+
+	O arquivo .gitignore é usado quando você tem arquivos que são necessários no repositório mas você não quer que eles subam para o repositório
+	online(track).
+	
+	Obs.: Dentro do arquivo podem ser adicionados os nomes dos arquivos a não serem trackeados ou até mesmo o tipo de extenção 
+	que não deve ser trackeada.
+
+	vim .gitignore				gera o arquivo gitignore;
+
+	*.json					(* = tudo) tudo que for .json não é trackeado.
+
+
+
+	
