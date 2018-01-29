@@ -161,4 +161,3 @@ Branch's(Snapshot):
 	git checkout nomeBranchExistente	Alterna entre os branchs;
 
 	git branch -D nomeBranch		Deleta branch selecionado;
-
