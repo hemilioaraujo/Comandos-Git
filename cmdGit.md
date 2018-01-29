@@ -152,7 +152,7 @@ Adicionando Chave SSH GitHub:
 
 	Copia a chave com o comando cat no diretório "~/.ssh" e acessa https://github.com/settings/keys -> new SSH key -> da um nome e cola a chave;
 
-Branch's:
+Branch's(Snapshot):
 
 	git checkout -b nomeBranch		Cria um novo branch com o nome que quiser;
 
