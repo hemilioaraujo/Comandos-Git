@@ -70,9 +70,11 @@ Comandos Git:
 	git status				exibe o status do repositório(em qual branch(diretório),
 						se existe algum commit pendente);
 	
-	git add nome do arquivo			adiciona o arquivo ao repositório;
+	git add nomeDoArquivo			adiciona o arquivo ao repositório;
 	
-	git rm nome do arquivo			deleta o arquivo do repositório;
+	git rm nomeDoArquivo			deleta o arquivo do repositório;
+
+	git rm -f nomeDoArquivo			deleta o arquivo do repositório(force);
 	
 	git commit -m "comentário"		confirma todas alterações e commita(arquivo recém criado);
 	
@@ -175,8 +177,7 @@ Branch's(Snapshot):
 
 	vim .gitignore				gera o arquivo gitignore;
 
-	*.json					(* = tudo) tudo que for .json não é trackeado.
+	*.json					(* = tudo) tudo que for .json não é trackeado;
 
-
-
+	exemplo.xls				O arquivo exemplo.xls não é trackeado;
 	
