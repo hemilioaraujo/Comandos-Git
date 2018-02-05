@@ -170,6 +170,19 @@ Rebase e Merge
 	git merge nomeDoBranch			Realiza o merge dos branches atual e o que é dado o nome.
 						O merge gera um commit extra para a junção.
 
+							 ________*_______
+							/		 \
+						-------*------------------*--------
+						Representação gráfica do merge.
+
+	git rebase nomeDoBranch			Realiza o rebase dos branches atual e o que é dado o nome.
+						O rebase não gera um commit extra e faz uma junção mais "linear".
+
+						------*-------*--------
+						Representação gráfica do rebase.
+
+
+
 
 	Obs.: 	É sempre rebase para sincronizar o código do Branch com o master(qusndo não é interessante ter o commit desta sincronização ou junção)
 	      	e merge quando for incluir um código de um branch separado (feature) no master e gerar um commit.
