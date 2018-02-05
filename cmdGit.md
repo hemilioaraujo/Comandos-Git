@@ -81,6 +81,12 @@ Comandos Git:
 	git commit -m "comentário"		confirma todas alterações e commita(arquivo recém criado);
 	
 	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente);
+
+	git stash				quando é editado um arquivo e precisa de ir para outro branch
+						ou não quer aplicar a edição por faltar finalizar algo, é realizado
+						o git stash que gera um estado de WIP(work in progress);
+
+	git stash apply				aplica as edições que foram interrompidas com o git stash;
 	
 	cmd clear ou Ctrl + L			limpa prompt;
 
@@ -202,4 +208,7 @@ Rebase e Merge:
 	*.json					(* = tudo) tudo que for .json não é trackeado;
 
 	exemplo.xls				O arquivo exemplo.xls não é trackeado;
+
+
+
 	
