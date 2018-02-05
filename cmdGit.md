@@ -87,6 +87,10 @@ Comandos Git:
 						o git stash que gera um estado de WIP(work in progress);
 
 	git stash apply				aplica as edições que foram interrompidas com o git stash;
+
+	git stash list				lista todos stashs;
+
+	git stash clear				exclui todos os stashs;
 	
 	cmd clear ou Ctrl + L			limpa prompt;
 
