@@ -19,13 +19,17 @@ Configurando Git:
 		git config --global user.email "hemilioaraujo@gmail.com"
 	
 	editor padrão(se não configurado ele utiliza vim)
-		git config --global core.editor (emacs,vim)
+		git config --global core.editor (emacs,vim);
 	
 	exibir configurações utilizadas
-		git config chave		chave = user.name, user.email, core.editor	
-		git config --list		exibe todas as configurações
+		git config chave		chave = user.name, user.email, core.editor;
+		git config --list		exibe todas as configurações;
 
-		
+	ALIAS
+		git config --global alias.xxx comando
+		(onde xxx é o que desejar e comando é o comando desejado criar o alias
+		Ex.: git config --global alias.s status, sempre que der o comando s,
+		é o mesmo que status);
 		
 Gerenciar Pastas:
 		
