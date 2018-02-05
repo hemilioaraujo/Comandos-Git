@@ -71,6 +71,8 @@ Comandos Git:
 						se existe algum commit pendente);
 	
 	git add nomeDoArquivo			adiciona o arquivo ao repositório;
+
+	git add .				adiciona o arquivo que não estiver trackeado;
 	
 	git rm nomeDoArquivo			deleta o arquivo do repositório;
 
@@ -80,7 +82,7 @@ Comandos Git:
 	
 	git commit -am "comentário"		confirma todas alterações e commita(arquivo já existente);
 	
-	clear					limpa prompt;
+	cmd clear ou Ctrl + L			limpa prompt;
 
 	
 Log's:	
@@ -165,7 +167,7 @@ Branch's(Snapshot):
 	git branch -D nomeBranch		Deleta branch selecionado;
 	
 
-Rebase e Merge
+Rebase e Merge:
 	
 	git merge nomeDoBranch			Realiza o merge dos branches atual e o que é dado o nome.
 						O merge gera um commit extra para a junção.
@@ -173,15 +175,14 @@ Rebase e Merge
 							 ________*_______
 							/		 \
 						-------*------------------*--------
-						Representação gráfica do merge.
+						Representação gráfica do merge;
+
 
 	git rebase nomeDoBranch			Realiza o rebase dos branches atual e o que é dado o nome.
 						O rebase não gera um commit extra e faz uma junção mais "linear".
 
-						------*-------*--------
-						Representação gráfica do rebase.
-
-
+						------*-------*------*-------
+						Representação gráfica do rebase;
 
 
 	Obs.: 	É sempre rebase para sincronizar o código do Branch com o master(qusndo não é interessante ter o commit desta sincronização ou junção)
