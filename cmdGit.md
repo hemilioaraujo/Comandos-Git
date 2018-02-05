@@ -164,8 +164,12 @@ Branch's(Snapshot):
 
 	git branch -D nomeBranch		Deleta branch selecionado;
 	
-	Obs.: É sempre rebase para sincronizar o código do Branch com o master(qusndo não é interessante ter o commit desta sincronização ou junção)
-	e merge quando for incluir um código de um branch separado (feature) no master e gerar um commit.
+
+Rebase e Merge
+
+	Obs.: 	É sempre rebase para sincronizar o código do Branch com o master(qusndo não é interessante ter o commit desta sincronização ou junção)
+	      	e merge quando for incluir um código de um branch separado (feature) no master e gerar um commit.
+
 
 .gitignore:
 
