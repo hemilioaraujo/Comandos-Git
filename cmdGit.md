@@ -1,12 +1,12 @@
 ### Material retirado com base no curso Git e Github para iniciantes(Willian Justen de Vasconcellos)
 
-Link para o curso no portal Udemy:
-	https://www.udemy.com/git-e-github-para-iniciantes
+[Curso Willian Justen no Udemy](https://www.udemy.com/git-e-github-para-iniciantes)
 
 	
-	
-Download Git:
-	https://git-scm.com/
+[Download Git](https://git-scm.com)
+
+
+[Meu Facebook](https://www.facebook.com/hemilioaraujo)
 	
 	
 	
