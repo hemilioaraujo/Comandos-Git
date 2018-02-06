@@ -9,7 +9,10 @@ Download Git:
 	https://git-scm.com/
 	
 	
-	
+
+Entrem em contato para trocarmos idéia:	[Facebook](https://www.facebook.com/hemilioaraujo)
+
+
 Configurando Git:
 	
 	Username
@@ -95,9 +98,6 @@ Comandos Git:
 	git stash list				lista todos stashs;
 
 	git stash clear				exclui todos os stashs;
-
-	git tag -a 1.0.0 -m "comentário"	gera uma tag de versão, essa tag é criada no github na área de releases.
-						Nesta área, é possível fazer o download do source code na versão gerada.
 	
 	cmd clear ou Ctrl + L			limpa prompt;
 
@@ -160,6 +160,12 @@ Repositório remoto (GitHub):
 										quando não se é pessoal é necessário realizar um fork 
 										do repositório para um repositório pessoal;
 	
+	git tag -a 1.0.0 -m "comentário"					gera uma tag de versão, essa tag é criada no github na área de releases.
+										Nesta área, é possível fazer o download do source code na versão gerada;
+
+	git tag									exibe todas as tags;
+	
+
 Gerenciando Chaves SSH:
 
 	ls -la ~/.ssh								verifica existência de chaves no repositório(id_rsa, id_rsa.pub);
