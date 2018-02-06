@@ -9,10 +9,7 @@ Download Git:
 	https://git-scm.com/
 	
 	
-
-Entrem em contato para trocarmos idéia:	[Facebook](https://www.facebook.com/hemilioaraujo)
-
-
+	
 Configurando Git:
 	
 	Username
@@ -164,6 +161,7 @@ Repositório remoto (GitHub):
 										Nesta área, é possível fazer o download do source code na versão gerada;
 
 	git tag									exibe todas as tags;
+
 	
 
 Gerenciando Chaves SSH:
