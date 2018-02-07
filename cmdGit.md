@@ -135,6 +135,8 @@ Reset Commit:
 	git reset --mixed hash			desfaz o commit e volta para modified;
 	
 	git reset --hard hash			acaba com toda edição feita pelo commit e retorna para o commit anterior;
+
+	git revert hash				retorna a commit anterior sem eliminar o commit atual para futuro debug;
 	
 	
 
