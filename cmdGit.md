@@ -224,3 +224,5 @@ Rebase e Merge:
 
 	exemplo.xls				O arquivo exemplo.xls não é trackeado;
 
+	teste revert
+
