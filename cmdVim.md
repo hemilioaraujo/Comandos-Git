@@ -48,9 +48,18 @@ Editar Dados:
 
 	Ctrl + v		Seleção em bloco(Seleção vertical);
 	
+	Shift + v		Seleção em linhas;
+
 	x			Del;
 
 	X			BackSpace;
+
+	:sort			Coloca trecho em ordem alfabética. Antes é 
+				necessária a seleção do trecho a ser ordenado;
+	
+	u			Desfazer;
+
+	Ctrl + r		Refazer;
 
 
 Salvar Arquivo:
@@ -119,13 +128,12 @@ Ferramentas:
 
 	:set tabstop=x				Define o tamanho do TAB;
 
-	batata
-	goiaba
-	manga
-	amora
-	genipapo
-
-
+bunda
+agua
+egua
+cavalo
+zumira
+sumir
 
 
 [Ponto de parada](https://www.youtube.com/watch?v=_qShvkx8jK0)
