@@ -56,6 +56,11 @@ Editar Dados:
 
 	:sort			Coloca trecho em ordem alfabética. Antes é 
 				necessária a seleção do trecho a ser ordenado;
+
+	:sort n			Ordena numéricamente;
+
+	!}sort			Coloca trecho em ordem alfabética, a partir de onde
+				o cursor estiver;
 	
 	u			Desfazer;
 
@@ -128,15 +133,10 @@ Ferramentas:
 
 	:set tabstop=x				Define o tamanho do TAB;
 
-bunda
-agua
-egua
-cavalo
-zumira
-sumir
 
 
-[Ponto de parada](https://www.youtube.com/watch?v=_qShvkx8jK0)
+
+[Ponto de parada](https://youtu.be/_hJkHTmedEk?t=33)
 
 
 
