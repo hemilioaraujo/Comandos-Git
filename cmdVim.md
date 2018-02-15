@@ -1,6 +1,6 @@
 ### Comandos Editor vim absorvidos dos vídeos do canal LinuxTips
 
-[Canal LinuxTips](https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw)
+[Canal LinuxTips](https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw) ---> [Vídeos Editor Vim](https://www.youtube.com/watch?v=TxSulvPxqic&list=PLf-O3X2-mxDnp9OpR8ZfbiRdq9CFPN5RE)
 
 Abrir aqruivos:
 
