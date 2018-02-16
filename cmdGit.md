@@ -225,4 +225,3 @@ Rebase e Merge:
 	*.json					(* = tudo) tudo que for .json não é trackeado;
 
 	exemplo.xls				O arquivo exemplo.xls não é trackeado;
-/c/Users/HemilioNoteBook/Desktop/casa.jpg
