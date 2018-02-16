@@ -155,6 +155,8 @@ Repositório remoto (GitHub):
 										O comando -u faz um track, e das próximas vezes,
 										só é nescessário o git push;
 
+	git pull							Incorpora as mudanças do repositório remoto para o branch local;
+
 	git clone git@github.com:hemilioaraujo/cmdGit.git nomePasta		clona repositório do endereço remoto(quando o repositório é pessoal)
 										quando não se é pessoal é necessário realizar um fork 
 										do repositório para um repositório pessoal;
