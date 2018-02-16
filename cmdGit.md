@@ -232,6 +232,6 @@ Rebase e Merge:
 
 	![casa jpg](images/casa.png)
 
-	![casapng](https://github.com/hemilioaraujo/cmdGit/blob/master/images/casa.png)
+	![casapng](https://github.com/hemilioaraujo/cmdGit/raw/master/images/casa.png)
 
 
