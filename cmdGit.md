@@ -228,4 +228,4 @@ Rebase e Merge:
 
 	teste para adicionar imagem ao readme.md:
 
-	![](images/casa.jpg)
+	[](https://github.com/hemilioaraujo/cmdGit/blob/master/images/casa.jpg)
