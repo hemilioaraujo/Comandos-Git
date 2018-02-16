@@ -1,4 +1,4 @@
-### Material retirado com base no curso Git e Github para iniciantes(Willian Justen de Vasconcellos)
+# Material retirado com base no curso Git e Github para iniciantes(Willian Justen de Vasconcellos)
 
 [Curso Willian Justen no Udemy](https://www.udemy.com/git-e-github-para-iniciantes)
 
@@ -225,4 +225,4 @@ Rebase e Merge:
 	*.json					(* = tudo) tudo que for .json não é trackeado;
 
 	exemplo.xls				O arquivo exemplo.xls não é trackeado;
-
+/c/Users/HemilioNoteBook/Desktop/casa.jpg
