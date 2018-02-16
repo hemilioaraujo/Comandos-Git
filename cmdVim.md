@@ -29,118 +29,125 @@ Inserir Dados:
 
 Editar Dados:
 
-	yy			Copia toda a linha;
+	yy				Copia toda a linha;
                                   
-	Xyy			Copia X linhas;
+	Xyy				Copia X linhas;
 
-	yw			Copia uma palavra;
+	yw				Copia uma palavra;
 
-	Xyw			Copia X palavras;
+	Xyw				Copia X palavras;
                                   
-	dd			Recortar;
+	dd				Recortar;
                                   
-	Xdd			Recorta X linhas;
+	Xdd				Recorta X linhas;
                                   
-	p			Cola;
+	p				Cola;
                                   
-	v			Modo Visual para selecionar partes do texto
-		 		e não somente linhas;
+	v				Modo Visual para selecionar partes do texto
+		 			e não somente linhas;
 
 	Ctrl + v		Seleção em bloco(Seleção vertical);
 	
 	Shift + v		Seleção em linhas;
 
-	x			Del;
+	x				Del;
 
-	X			BackSpace;
+	X				BackSpace;
 
 	:sort			Coloca trecho em ordem alfabética. Antes é 
-				necessária a seleção do trecho a ser ordenado;
+					necessária a seleção do trecho a ser ordenado;
 
 	:sort n			Ordena numéricamente;
 
 	!}sort			Coloca trecho em ordem alfabética, a partir de onde
-				o cursor estiver;
+					o cursor estiver;
 	
-	u			Desfazer;
+	u				Desfazer;
 
 	Ctrl + r		Refazer;
 
 
 Salvar Arquivo:
 
-	:w			Salva arquivo;
+	:w				Salva arquivo;
 
 	:w novoNome		Salvar como(cria um novo arquivo com o nome
-				definido);
+					definido);
 
-	:wq			Salva e sai do arquivo;
+	:wq				Salva e sai do arquivo;
 
-	:x			Faz o mesmo que o anterior;
+	:x				Faz o mesmo que o anterior;
+	
+	ZZ				Faz o mesmo que os anteriores;
 
-	ZZ			Faz o mesmo que os anteriores;
-
-	:q!			Sair sem salvar;
+	:q!				Sair sem salvar;
 
 
 Ferramentas:
 
-	:split nomeDoArquivo			Divide a tela em duas com os arquivos abertos
-						um em cada tela;
+	:split nomeDoArquivo				Divide a tela em duas com os arquivos abertos
+										um em cada tela;
 
-	Ctrl + ww				Alt + Tab (Alterna entre as páginas editores);
+	Ctrl + ww							Alt + Tab (Alterna entre as páginas editores);
+		
+	:r nomeDoArquivo					Traz todo o texto do arquivo selecionado para
+										o arquivo aberto;
 	
-	:r nomeDoArquivo			traz todo o texto do arquivo selecionado para
-						o arquivo aberto;
+	/palavra							Pesquisa de cima para baixo pela palavra desejada
+										por todo arquivo.
+										Para ir alternando entre as repetições da palavra,
+										é só apertar n;
 	
-	/palavra				Pesquisa de cima para baixo pela palavra desejada
-						por todo arquivo.
-						Para ir alternando entre as repetições da palavra,
-						é só apertar n;
+	?palavra							Pesquisa de baixo para cima pela palavra desejada;
+
+	:set hlsearch						Destaca todas as ocorrências da palavra pesquisada;
 	
-	?palavra				Pesquisa de baixo para cima pela palavra desejada;
+	:x,y/antiga/nova/					Substitui a palavra antiga que estiver dentre as
+										linhas x e y pela palavra nova;
 
-	:x,y/antiga/nova/			Substitui a palavra antiga que estiver dentre as
-						linhas x e y pela palavra nova;
+	:%s/antiga/nova/					Substitui todas as palavras antigas pela nova;
 
-	:%s/antiga/nova/			Substitui todas as palavras antigas pela nova;
-
-	:%s/antiga/nova/g			Substitui todas as palavras antigas pela nova.
-						Substitui apenas uma por linha se hoverem duas;
+	:%s/antiga/nova/g					Substitui todas as palavras antigas pela nova.
+										Substitui apenas uma por linha se hoverem duas;
 	
-	:syntax on/off				Liga ou desliga reconhecimento da syntax da 
-						linguagem. Arquivo precisa ter a extensão;
+	:syntax on/off						Liga ou desliga reconhecimento da syntax da 
+										linguagem. Arquivo precisa ter a extensão;
 
-	:set number				Exibe número de linhas do arquivo;
+	:set number							Exibe número de linhas do arquivo;
 
-	:set nonu				Oculta número de linhas do arquivo;
+	:set nonu							Oculta número de linhas do arquivo;
 
 	:ab abreviação oQueSeráAbreviado	gera a abreviação de um texto longo que desejar;
 
-	:set ai					Habilita auto identação;
+	:set ai								Habilita auto identação;
 
-	:set noai				Desabilita auto identação;
+	:set noai							Desabilita auto identação;
 	
-	:set visualbell				Desabilita sinal sonoro e deixa visual;
+	:set visualbell						Desabilita sinal sonoro e deixa visual;
 
-	:set ic					Ignora case sensitive na pesquisa de palavras;
+	:set ic								Ignora case sensitive na pesquisa de palavras;
 
-	:set noic				Desabilita o ignore case;
+	:set noic							Desabilita o ignore case;
 
-	:set bg=dark				Altera o background para dark;
+	:set bg=dark						Altera o background para dark;
 
-	:set bg=light				Altera o background para light;
+	:set bg=light						Altera o background para light;
 
-	:set tabstop=x				Define o tamanho do TAB;
+	:set tabstop=x						Define o tamanho do TAB;
 
+	:set cursorline						Habilita destaque da linha onde está o cursor;
 
+	:set showcmd						Exibe o histórico do último comando realizado;
 
+#Observação:
+	
+		Todas as alterações de setup do vim listadas acima, retornam para o default
+	após o vim ser fechado.
+		Caso houver necessidade de mudar o default, é preciso editar ou criar o arquivo vimrc.
+	Para saber se ele já existe e onde está localizado, basta executar os seguintes comandos:
+		
+		vim --version | grep vimrc
 
-[Ponto de parada](https://youtu.be/_hJkHTmedEk?t=33)
+	Após isso é só editar o arquivo e adicionar os ajustes desejados.
 
-
-
-
-
-
-
+	(Passos usados para o vim que é instalado junto com o git).
