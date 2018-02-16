@@ -229,3 +229,7 @@ Rebase e Merge:
 	exemplo.xls				O arquivo exemplo.xls não é trackeado;
 
 	teste para adicionar imagem ao readme.md:
+
+	![casa jpg](https://github.com/hemilioaraujo/cmdGit/raw/master/images/casa.jpg)
+
+
