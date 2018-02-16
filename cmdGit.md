@@ -230,8 +230,8 @@ Rebase e Merge:
 
 	teste para adicionar imagem ao readme.md:
 
-	![casa jpg](images/casa.png)
+![casa jpg](images/casa.png)
 
-	![casapng](https://github.com/hemilioaraujo/cmdGit/raw/master/images/casa.png)
+
 
 
