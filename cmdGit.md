@@ -144,7 +144,11 @@ Reset Commit:
 Repositório remoto (GitHub):
 
 	git remote add origin https://github.com/hemilioaraujo/cmdGit.git	este comando adiciona um repositório remoto, 
-										com o nome origin(pode ser qualquer nome);
+																		com o nome origin(pode ser qualquer nome);
+	
+	git remote rm origin												exclui o remoto origin;
+
+	git remote rename origin dindon		renomeia o remoto origin para dindon;
 	
 	git remote								exibe repositório remoto;
 	
