@@ -169,6 +169,8 @@ Repositório remoto (GitHub):
 										Nesta área, é possível fazer o download do source code na versão gerada;
 
 	git tag									exibe todas as tags;
+	
+	git fetch								verifica diferenças entre o repositório local e o remoto;
 
 	
 
